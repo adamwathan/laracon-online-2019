@@ -38,7 +38,7 @@
           <h1 class="text-3xl sm:text-4xl md:text-5xl text-white leading-none">Where will you be flying today?</h1>
           <p class="mt-2 text-xl sm:text-2xl md:text-3xl text-blue-accent">Travel the world at prices you wouldn't believe.</p>
         </div>
-        <div class="bg-white rounded-lg overflow-hidden shadow-xl">
+        <div class="max-w-3xl mx-auto lg:max-w-full bg-white rounded-lg overflow-hidden shadow-xl">
           <div class="px-8 py-6">
             <div class="flex items-center">
               <label class="form-radio-group">
