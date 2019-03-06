@@ -511,9 +511,9 @@ h6 {
   width: 100%;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 640px) {
   .container {
-    max-width: 568px;
+    max-width: 640px;
   }
 }
 
@@ -556,6 +556,10 @@ h6 {
 
 .bg-scroll {
   background-attachment: scroll;
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-white-20 {
@@ -782,6 +786,10 @@ h6 {
   background-color: #20463d;
 }
 
+.hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
 .hover\:bg-white-20:hover {
   background-color: rgba(255, 255, 255, .2);
 }
@@ -1004,6 +1012,10 @@ h6 {
 
 .hover\:bg-green-9:hover {
   background-color: #20463d;
+}
+
+.focus\:bg-transparent:focus {
+  background-color: transparent;
 }
 
 .focus\:bg-white-20:focus {
@@ -1302,6 +1314,10 @@ h6 {
   border-collapse: separate;
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
 .border-white-20 {
   border-color: rgba(255, 255, 255, .2);
 }
@@ -1526,6 +1542,10 @@ h6 {
   border-color: #20463d;
 }
 
+.hover\:border-transparent:hover {
+  border-color: transparent;
+}
+
 .hover\:border-white-20:hover {
   border-color: rgba(255, 255, 255, .2);
 }
@@ -1748,6 +1768,10 @@ h6 {
 
 .hover\:border-green-9:hover {
   border-color: #20463d;
+}
+
+.focus\:border-transparent:focus {
+  border-color: transparent;
 }
 
 .focus\:border-white-20:focus {
@@ -4919,6 +4943,10 @@ h6 {
   text-align: justify;
 }
 
+.text-transparent {
+  color: transparent;
+}
+
 .text-white-20 {
   color: rgba(255, 255, 255, .2);
 }
@@ -5143,6 +5171,10 @@ h6 {
   color: #20463d;
 }
 
+.hover\:text-transparent:hover {
+  color: transparent;
+}
+
 .hover\:text-white-20:hover {
   color: rgba(255, 255, 255, .2);
 }
@@ -5365,6 +5397,10 @@ h6 {
 
 .hover\:text-green-9:hover {
   color: #20463d;
+}
+
+.focus\:text-transparent:focus {
+  color: transparent;
 }
 
 .focus\:text-white-20:focus {
@@ -5969,7 +6005,7 @@ h6 {
   z-index: auto;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 640px) {
   .sm\:list-reset {
     list-style: none;
     padding: 0;
@@ -5991,6 +6027,10 @@ h6 {
 
   .sm\:bg-scroll {
     background-attachment: scroll;
+  }
+
+  .sm\:bg-transparent {
+    background-color: transparent;
   }
 
   .sm\:bg-white-20 {
@@ -6217,6 +6257,10 @@ h6 {
     background-color: #20463d;
   }
 
+  .sm\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .sm\:hover\:bg-white-20:hover {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -6439,6 +6483,10 @@ h6 {
 
   .sm\:hover\:bg-green-9:hover {
     background-color: #20463d;
+  }
+
+  .sm\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .sm\:focus\:bg-white-20:focus {
@@ -6729,6 +6777,10 @@ h6 {
     background-size: contain;
   }
 
+  .sm\:border-transparent {
+    border-color: transparent;
+  }
+
   .sm\:border-white-20 {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -6953,6 +7005,10 @@ h6 {
     border-color: #20463d;
   }
 
+  .sm\:hover\:border-transparent:hover {
+    border-color: transparent;
+  }
+
   .sm\:hover\:border-white-20:hover {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -7175,6 +7231,10 @@ h6 {
 
   .sm\:hover\:border-green-9:hover {
     border-color: #20463d;
+  }
+
+  .sm\:focus\:border-transparent:focus {
+    border-color: transparent;
   }
 
   .sm\:focus\:border-white-20:focus {
@@ -10330,6 +10390,10 @@ h6 {
     text-align: justify;
   }
 
+  .sm\:text-transparent {
+    color: transparent;
+  }
+
   .sm\:text-white-20 {
     color: rgba(255, 255, 255, .2);
   }
@@ -10554,6 +10618,10 @@ h6 {
     color: #20463d;
   }
 
+  .sm\:hover\:text-transparent:hover {
+    color: transparent;
+  }
+
   .sm\:hover\:text-white-20:hover {
     color: rgba(255, 255, 255, .2);
   }
@@ -10776,6 +10844,10 @@ h6 {
 
   .sm\:hover\:text-green-9:hover {
     color: #20463d;
+  }
+
+  .sm\:focus\:text-transparent:focus {
+    color: transparent;
   }
 
   .sm\:focus\:text-white-20:focus {
@@ -11405,6 +11477,10 @@ h6 {
     background-attachment: scroll;
   }
 
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
   .md\:bg-white-20 {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -11629,6 +11705,10 @@ h6 {
     background-color: #20463d;
   }
 
+  .md\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .md\:hover\:bg-white-20:hover {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -11851,6 +11931,10 @@ h6 {
 
   .md\:hover\:bg-green-9:hover {
     background-color: #20463d;
+  }
+
+  .md\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .md\:focus\:bg-white-20:focus {
@@ -12141,6 +12225,10 @@ h6 {
     background-size: contain;
   }
 
+  .md\:border-transparent {
+    border-color: transparent;
+  }
+
   .md\:border-white-20 {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -12365,6 +12453,10 @@ h6 {
     border-color: #20463d;
   }
 
+  .md\:hover\:border-transparent:hover {
+    border-color: transparent;
+  }
+
   .md\:hover\:border-white-20:hover {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -12587,6 +12679,10 @@ h6 {
 
   .md\:hover\:border-green-9:hover {
     border-color: #20463d;
+  }
+
+  .md\:focus\:border-transparent:focus {
+    border-color: transparent;
   }
 
   .md\:focus\:border-white-20:focus {
@@ -15742,6 +15838,10 @@ h6 {
     text-align: justify;
   }
 
+  .md\:text-transparent {
+    color: transparent;
+  }
+
   .md\:text-white-20 {
     color: rgba(255, 255, 255, .2);
   }
@@ -15966,6 +16066,10 @@ h6 {
     color: #20463d;
   }
 
+  .md\:hover\:text-transparent:hover {
+    color: transparent;
+  }
+
   .md\:hover\:text-white-20:hover {
     color: rgba(255, 255, 255, .2);
   }
@@ -16188,6 +16292,10 @@ h6 {
 
   .md\:hover\:text-green-9:hover {
     color: #20463d;
+  }
+
+  .md\:focus\:text-transparent:focus {
+    color: transparent;
   }
 
   .md\:focus\:text-white-20:focus {
@@ -16817,6 +16925,10 @@ h6 {
     background-attachment: scroll;
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:bg-white-20 {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -17041,6 +17153,10 @@ h6 {
     background-color: #20463d;
   }
 
+  .lg\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .lg\:hover\:bg-white-20:hover {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -17263,6 +17379,10 @@ h6 {
 
   .lg\:hover\:bg-green-9:hover {
     background-color: #20463d;
+  }
+
+  .lg\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .lg\:focus\:bg-white-20:focus {
@@ -17553,6 +17673,10 @@ h6 {
     background-size: contain;
   }
 
+  .lg\:border-transparent {
+    border-color: transparent;
+  }
+
   .lg\:border-white-20 {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -17777,6 +17901,10 @@ h6 {
     border-color: #20463d;
   }
 
+  .lg\:hover\:border-transparent:hover {
+    border-color: transparent;
+  }
+
   .lg\:hover\:border-white-20:hover {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -17999,6 +18127,10 @@ h6 {
 
   .lg\:hover\:border-green-9:hover {
     border-color: #20463d;
+  }
+
+  .lg\:focus\:border-transparent:focus {
+    border-color: transparent;
   }
 
   .lg\:focus\:border-white-20:focus {
@@ -21154,6 +21286,10 @@ h6 {
     text-align: justify;
   }
 
+  .lg\:text-transparent {
+    color: transparent;
+  }
+
   .lg\:text-white-20 {
     color: rgba(255, 255, 255, .2);
   }
@@ -21378,6 +21514,10 @@ h6 {
     color: #20463d;
   }
 
+  .lg\:hover\:text-transparent:hover {
+    color: transparent;
+  }
+
   .lg\:hover\:text-white-20:hover {
     color: rgba(255, 255, 255, .2);
   }
@@ -21600,6 +21740,10 @@ h6 {
 
   .lg\:hover\:text-green-9:hover {
     color: #20463d;
+  }
+
+  .lg\:focus\:text-transparent:focus {
+    color: transparent;
   }
 
   .lg\:focus\:text-white-20:focus {
@@ -22229,6 +22373,10 @@ h6 {
     background-attachment: scroll;
   }
 
+  .xl\:bg-transparent {
+    background-color: transparent;
+  }
+
   .xl\:bg-white-20 {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -22453,6 +22601,10 @@ h6 {
     background-color: #20463d;
   }
 
+  .xl\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+
   .xl\:hover\:bg-white-20:hover {
     background-color: rgba(255, 255, 255, .2);
   }
@@ -22675,6 +22827,10 @@ h6 {
 
   .xl\:hover\:bg-green-9:hover {
     background-color: #20463d;
+  }
+
+  .xl\:focus\:bg-transparent:focus {
+    background-color: transparent;
   }
 
   .xl\:focus\:bg-white-20:focus {
@@ -22965,6 +23121,10 @@ h6 {
     background-size: contain;
   }
 
+  .xl\:border-transparent {
+    border-color: transparent;
+  }
+
   .xl\:border-white-20 {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -23189,6 +23349,10 @@ h6 {
     border-color: #20463d;
   }
 
+  .xl\:hover\:border-transparent:hover {
+    border-color: transparent;
+  }
+
   .xl\:hover\:border-white-20:hover {
     border-color: rgba(255, 255, 255, .2);
   }
@@ -23411,6 +23575,10 @@ h6 {
 
   .xl\:hover\:border-green-9:hover {
     border-color: #20463d;
+  }
+
+  .xl\:focus\:border-transparent:focus {
+    border-color: transparent;
   }
 
   .xl\:focus\:border-white-20:focus {
@@ -26566,6 +26734,10 @@ h6 {
     text-align: justify;
   }
 
+  .xl\:text-transparent {
+    color: transparent;
+  }
+
   .xl\:text-white-20 {
     color: rgba(255, 255, 255, .2);
   }
@@ -26790,6 +26962,10 @@ h6 {
     color: #20463d;
   }
 
+  .xl\:hover\:text-transparent:hover {
+    color: transparent;
+  }
+
   .xl\:hover\:text-white-20:hover {
     color: rgba(255, 255, 255, .2);
   }
@@ -27012,6 +27188,10 @@ h6 {
 
   .xl\:hover\:text-green-9:hover {
     color: #20463d;
+  }
+
+  .xl\:focus\:text-transparent:focus {
+    color: transparent;
   }
 
   .xl\:focus\:text-white-20:focus {
