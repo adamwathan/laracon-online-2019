@@ -20,4 +20,25 @@
   @apply ml-4
 }
 
+
+.form-input-group {
+  @apply relative block w-full
+}
+.form-input-icon {
+  @apply absolute pin-y pin-l flex items-center pointer-events-none pl-2
+}
+.form-input-icon > svg {
+  @apply block w-6 h-6 text-grey-3 fill-current
+}
+.form-input {
+  @apply block w-full px-4 py-3 text-grey-8 bg-grey-1 border border-grey-2 rounded
+}
+.form-input-icon + .form-input {
+  @apply pl-10
+}
+.form-input:focus {
+  @apply bg-white outline-none
+}
+
+
 @tailwind utilities;
