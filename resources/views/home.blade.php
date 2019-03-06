@@ -38,7 +38,7 @@
           <h1 class="text-3xl sm:text-4xl md:text-5xl text-white leading-none">Where will you be flying today?</h1>
           <p class="mt-2 text-xl sm:text-2xl md:text-3xl text-blue-accent">Travel the world at prices you wouldn't believe.</p>
         </div>
-        <div class="bg-white rounded-lg overflow-hidden shadow-xl -mb-48">
+        <div class="bg-white rounded-lg overflow-hidden shadow-xl">
           <div class="px-8 py-6">
             <div class="flex items-center">
               <label class="form-radio-group">
@@ -58,21 +58,41 @@
               </label>
             </div>
             <div class="flex flex-wrap -mx-1 mt-6">
-              <label class="w-1/2 md:w-1/4 px-1">
+              <label class="w-full sm:w-1/2 lg:w-1/4 px-1">
                 <span class="block text-sm font-semibold">Origin City</span>
-                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="Toronto, ON">
+                <span class="mt-1 relative block w-full">
+                  <span class="absolute pin-y pin-l flex items-center pointer-events-none pl-2">
+                    <svg class="block w-6 h-6 text-grey-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.636 3.597a8.775 8.775 0 0 0 0 12.54l5.657 5.574a1.01 1.01 0 0 0 1.414 0l5.657-5.573a8.776 8.776 0 0 0 0-12.54C14.849.133 9.151.133 5.636 3.597zM9 9.867c0 1.633 1.343 2.956 3 2.956s3-1.323 3-2.955c0-1.633-1.343-2.956-3-2.956S9 8.235 9 9.868z"/></svg>
+                  </span>
+                  <input class="block w-full pl-10 pr-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="Toronto, ON">
+                </span>
               </label>
-              <label class="w-1/2 md:w-1/4 px-1">
+              <label class="mt-4 sm:mt-0 w-full sm:w-1/2 lg:w-1/4 px-1">
                 <span class="block text-sm font-semibold">Destination</span>
-                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="San Francisco, CA">
+                <span class="mt-1 relative block w-full">
+                  <span class="absolute pin-y pin-l flex items-center pointer-events-none pl-2">
+                    <svg class="block w-6 h-6 text-grey-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.636 3.597a8.775 8.775 0 0 0 0 12.54l5.657 5.574a1.01 1.01 0 0 0 1.414 0l5.657-5.573a8.776 8.776 0 0 0 0-12.54C14.849.133 9.151.133 5.636 3.597zM9 9.867c0 1.633 1.343 2.956 3 2.956s3-1.323 3-2.955c0-1.633-1.343-2.956-3-2.956S9 8.235 9 9.868z"/></svg>
+                  </span>
+                  <input class="block w-full pl-10 pr-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="San Francisco, CA">
+                </span>
               </label>
-              <label class="mt-4 md:mt-0 w-1/2 md:w-1/4 px-1">
+              <label class="mt-4 lg:mt-0 w-full sm:w-1/2 lg:w-1/4 px-1">
                 <span class="block text-sm font-semibold">Depart / Return</span>
-                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="Sun 14/4 – Thu 18/4">
+                <span class="mt-1 relative block w-full">
+                  <span class="absolute pin-y pin-l flex items-center pointer-events-none pl-2">
+                    <svg class="block w-6 h-6 text-grey-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.707 2.293A1 1 0 0 0 6 3v1H5c-1.1 0-2 .9-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1V3a1 1 0 0 0-2 0v1H8V3a1 1 0 0 0-.293-.707zM5 19V9h14v10H5z"/></svg>
+                  </span>
+                  <input class="block w-full pl-10 pr-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="Sun 14/4 – Thu 18/4">
+                </span>
               </label>
-              <label class="mt-4 md:mt-0 w-1/2 md:w-1/4 px-1">
+              <label class="mt-4 lg:mt-0 w-full sm:w-1/2 lg:w-1/4 px-1">
                 <span class="block text-sm font-semibold">Travellers</span>
-                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="1 Adult">
+                <span class="mt-1 relative block w-full">
+                  <span class="absolute pin-y pin-l flex items-center pointer-events-none pl-2">
+                    <svg class="block w-6 h-6 text-grey-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm3 11v1a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5z"/></svg>
+                  </span>
+                  <input class="block w-full pl-10 pr-4 py-3 text-grey-8 bg-grey-1 focus:bg-white focus:outline-none border border-grey-2 rounded" value="1 Adult">
+                </span>
               </label>
             </div>
           </div>
@@ -88,7 +108,10 @@
               </label>
             </div>
             <div class="mt-3 sm:mt-0 flex items-center">
-              <button class="block w-full sm:inline-block sm:w-auto bg-yellow-4 hover:bg-yellow-5 font-bold text-yellow-9 rounded px-4 py-3 focus:outline-none focus:shadow-outline">Search Flights</button>
+              <button class="flex items-center justify-center w-full sm:inline-inline-flex sm:w-auto bg-yellow-4 hover:bg-yellow-5 font-bold text-yellow-9 rounded px-4 py-3 focus:outline-none focus:shadow-outline">
+                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.32 14.906l1.096 1.096c.412-.022.83.123 1.145.437l3 3a1.5 1.5 0 0 1-2.122 2.122l-3-3a1.497 1.497 0 0 1-.437-1.145l-1.096-1.096a8 8 0 1 1 1.414-1.414zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+                Search Flights
+              </button>
             </div>
           </div>
         </div>
