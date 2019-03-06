@@ -41,17 +41,20 @@
         <div class="bg-white rounded-lg overflow-hidden shadow-xl -mb-48">
           <div class="px-8 py-6">
             <div class="flex items-center">
-              <label class="flex items-center">
+              <label class="form-radio-group">
                 <input type="radio" name="trip_type" value="round_trip" checked>
-                <span class="ml-4">Round trip</span>
+                <span class="form-radio-indicator" aria-hidden></span>
+                <span class="form-radio-label">Round trip</span>
               </label>
-              <label class="flex items-center ml-8">
-                <input type="radio" name="trip_type" value="one_way">
-                <span class="ml-4">One-way</span>
+              <label class="form-radio-group ml-8">
+                <input type="radio" name="trip_type" value="one_way" checked>
+                <span class="form-radio-indicator" aria-hidden></span>
+                <span class="form-radio-label">One-way</span>
               </label>
-              <label class="flex items-center ml-8">
-                <input type="radio" name="trip_type" value="multi_city">
-                <span class="ml-4">Multi-city</span>
+              <label class="form-radio-group ml-8">
+                <input type="radio" name="trip_type" value="round_trip" checked>
+                <span class="form-radio-indicator" aria-hidden></span>
+                <span class="form-radio-label">Multi-city</span>
               </label>
             </div>
             <div class="flex flex-wrap -mx-1 mt-6">

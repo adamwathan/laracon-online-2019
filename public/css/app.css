@@ -535,6 +535,40 @@ h6 {
   }
 }
 
+.form-radio-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-radio-group > input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.form-radio-group > .form-radio-indicator {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 9999px;
+  background-color: #f1f5f9;
+  border-width: 1px;
+  border-color: #dde6ee;
+}
+
+.form-radio-group > input[type="radio"]:checked + .form-radio-indicator {
+  border-width: 8px;
+  border-color: #2e4f73;
+}
+
+.form-radio-group > input[type="radio"]:focus + .form-radio-indicator {
+  box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
+}
+
+.form-radio-group > .form-radio-label {
+  margin-left: 1rem;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;

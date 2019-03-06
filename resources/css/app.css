@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
+
+.form-radio-group {
+  @apply relative flex items-center
+}
+.form-radio-group > input[type="radio"] {
+  @apply absolute opacity-0 pointer-events-none
+}
+.form-radio-group > .form-radio-indicator {
+  @apply h-6 w-6 rounded-full bg-grey-1 border border-grey-2
+}
+.form-radio-group > input[type="radio"]:checked + .form-radio-indicator {
+  @apply border-8 border-blue-7
+}
+.form-radio-group > input[type="radio"]:focus + .form-radio-indicator {
+  @apply shadow-outline
+}
+.form-radio-group > .form-radio-label {
+  @apply ml-4
+}
+
 @tailwind utilities;

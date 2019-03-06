@@ -1,5 +1,10 @@
 module.exports = {
   theme: {
+    extend: {
+      borderWidth: {
+        8: '8px'
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
