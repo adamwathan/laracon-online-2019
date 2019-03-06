@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>Tailwind Travel</title>
   </head>
-  <body class="bg-grey-2 font-sans leading-normal antialiased">
+  <body class="bg-grey-2 text-grey-8 font-sans leading-normal antialiased">
     <header class="bg-cover bg-center" style="background-image: url('/img/hero-bg.jpg')">
-      <div class="max-w-5xl mx-auto pb-16">
+      <div class="max-w-5xl mx-auto pb-20">
         <nav class="flex justify-between items-center py-5 border-b border-white-20">
           <div class="flex items-center">
             <svg class="h-10 w-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 40c11.046 0 20-8.954 20-20S31.046 0 20 0 0 8.954 0 20s8.954 20 20 20z" fill="#fff"/><path d="M20 26.094l-8.594 1.82c-.857.38-1.72-.522-1.3-1.361l9-18a1 1 0 0 1 1.788 0l9 18c.42.839-.443 1.742-1.3 1.36L20 26.095z" fill="#6D9CCB"/><path d="M20 8c.355 0 .71.184.894.553l9 18c.42.839-.443 1.742-1.3 1.36L20 26.095V8z" fill="#16518C"/></svg>
@@ -26,17 +26,98 @@
             </a>
           </div>
         </nav>
-        <div class="text-center py-16">
+        <div class="text-center pt-12 pb-16">
           <h1 class="text-5xl text-white leading-none">Where will you be flying today?</h1>
           <p class="mt-2 text-3xl text-blue-accent">Travel the world at prices you wouldn't believe.</p>
         </div>
         <div class="bg-white rounded-lg overflow-hidden shadow-xl -mb-48">
-          <div class="h-48">
-
+          <div class="px-8 py-6">
+            <div class="flex items-center">
+              <label class="flex items-center">
+                <input type="radio" name="trip_type" value="round_trip" checked>
+                <span class="ml-4">Round trip</span>
+              </label>
+              <label class="flex items-center ml-8">
+                <input type="radio" name="trip_type" value="one_way">
+                <span class="ml-4">One-way</span>
+              </label>
+              <label class="flex items-center ml-8">
+                <input type="radio" name="trip_type" value="multi_city">
+                <span class="ml-4">Multi-city</span>
+              </label>
+            </div>
+            <div class="flex -mx-1 mt-6">
+              <label class="w-1/4 px-1">
+                <span class="block text-sm font-semibold">Origin City</span>
+                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 border border-grey-2 rounded" value="Toronto, ON">
+              </label>
+              <label class="w-1/4 px-1">
+                <span class="block text-sm font-semibold">Destination</span>
+                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 border border-grey-2 rounded" value="San Francisco, CA">
+              </label>
+              <label class="w-1/4 px-1">
+                <span class="block text-sm font-semibold">Depart / Return</span>
+                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 border border-grey-2 rounded" value="Sun 14/4 – Thu 18/4">
+              </label>
+              <label class="w-1/4 px-1">
+                <span class="block text-sm font-semibold">Travellers</span>
+                <input class="mt-1 block w-full px-4 py-3 text-grey-8 bg-grey-1 border border-grey-2 rounded" value="1 Adult">
+              </label>
+            </div>
           </div>
-          <div class="bg-grey-1 h-20"></div>
+          <div class="flex items-center justify-between bg-grey-1 px-8 py-3">
+            <div class="flex items-center">
+              <label class="flex items-center">
+                <input type="checkbox" name="add_hotel">
+                <span class="ml-3">Add a hotel</span>
+              </label>
+              <label class="flex items-center ml-12">
+                <input type="checkbox" name="add_car">
+                <span class="ml-3">Add a car</span>
+              </label>
+            </div>
+            <div class="flex items-center">
+              <button class="ml-6 bg-yellow-4 font-bold text-yellow-9 rounded px-4 py-3">Search Flights</button>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+    <div class="mt-48">
+      <div class="max-w-5xl mx-auto">
+        <div class="flex justify-between items-baseline">
+          <h2 class="text-2xl">Vacation package deals</h2>
+          <a href="#" class="font-bold text-blue-5 no-underline">
+            Explore all package deals &rarr;
+          </a>
+        </div>
+        <div class="mt-3 flex -mx-3">
+          @foreach (range(1, 3) as $i)
+          <div class="w-1/3 px-3">
+            <div class="rounded-lg overflow-hidden shadow-md">
+              <img class="block h-40 max-w-full object-center object-cover" src="https://via.placeholder.com/350x150" alt="">
+              <div class="bg-white px-5 pt-3 pb-5">
+                <div class="flex justify-between items-baseline">
+                  <span class="text-grey-5 font-bold uppercase text-sm">Myrtle Beach</span>
+                  <span class="inline-block px-2 bg-red-0 text-red-8 text-xs font-bold rounded-full">Only 5 left</span>
+                </div>
+                <div class="mt-3">
+                  <a href="#" class="text-grey-8 font-semibold no-underline">4 nights at Hampton Inn Myrtle Beach Broadway at the Beach</a>
+                </div>
+              </div>
+              <div class="bg-grey-1 px-5 pt-3 pb-4">
+                <div class="leading-tight">
+                  <a href="#" class="text-grey-8 text-xl font-semibold no-underline">CA $1295</a>
+                </div>
+                <div class="leading-tight">
+                  <a href="#" class="leading-none text-grey-5 text-sm no-underline">vacationspot.ca</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          @endforeach
+        </div>
+      </div>
+    </div>
   </body>
 </html>

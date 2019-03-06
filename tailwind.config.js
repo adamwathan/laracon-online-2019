@@ -1,13 +1,5 @@
-const defaultTheme = require('tailwindcss/defaultTheme')()
-
 module.exports = {
   theme: {
-    fontFamily: {
-      sans: [
-        'Barter Exchange',
-        ...defaultTheme.fontFamily.sans,
-      ]
-    },
     colors: {
       white: {
         20: 'rgba(255,255,255,.2)',
@@ -54,7 +46,7 @@ module.exports = {
         'accent': '#aff2ff',
       },
       red: {
-        0: '#fff0f0',
+        0: '#ffe0e0',
         1: '#fec4c4',
         2: '#f69595',
         3: '#ee6a6a',
@@ -62,11 +54,11 @@ module.exports = {
         5: '#d12424',
         6: '#b91717',
         7: '#9a1414',
-        8: '#7b1717',
+        8: '#6f2323',
         9: '#581818',
       },
       green: {
-        0: '#e3feed',
+        0: '#d7f2c8',
         1: '#b1f3cc',
         2: '#8be7b4',
         3: '#69d69f',
@@ -74,7 +66,7 @@ module.exports = {
         5: '#399f74',
         6: '#308162',
         7: '#2c6a56',
-        8: '#255346',
+        8: '#465f39',
         9: '#20463d',
       }
     }
