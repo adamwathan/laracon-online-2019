@@ -13,25 +13,25 @@
           <div>
             <svg class="block h-10 w-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 40c11.046 0 20-8.954 20-20S31.046 0 20 0 0 8.954 0 20s8.954 20 20 20z" fill="#fff"/><path d="M20 26.094l-8.594 1.82c-.857.38-1.72-.522-1.3-1.361l9-18a1 1 0 0 1 1.788 0l9 18c.42.839-.443 1.742-1.3 1.36L20 26.095z" fill="#6D9CCB"/><path d="M20 8c.355 0 .71.184.894.553l9 18c.42.839-.443 1.742-1.3 1.36L20 26.095V8z" fill="#16518C"/></svg>
           </div>
-          <div class="hidden md:flex flex-1 items-center justify-between">
-            <div class="flex items-center">
-              <a href="#" class="ml-8 text-white no-underline font-bold">Flights</a>
-              <a href="#" class="ml-8 text-white no-underline font-bold">Hotels</a>
-              <a href="#" class="ml-8 text-white no-underline font-bold">Cars</a>
-              <a href="#" class="ml-8 text-white no-underline font-bold">Vacations</a>
-              <a href="#" class="ml-8 text-white no-underline font-bold">Deals</a>
-            </div>
-            <div>
-              <a href="#" class="text-white no-underline font-bold">Trips</a>
-              <a href="#" class="inline-block ml-8 border border-white-20 rounded px-4 py-2 leading-tight text-white no-underline font-bold hover:bg-white-20 hover:border-transparent">
-                Sign in
-              </a>
-            </div>
-          </div>
           <div class="md:hidden flex-1 text-right">
             <button type="button" class="inline-block border border-white-20 rounded px-4 py-2 leading-tight text-white no-underline font-bold">
               Menu
             </button>
+          </div>
+          <div class="hidden fixed pin bg-blue-9 z-10 p-10 text-center md:static md:pin-none md:bg-transparent md:z-auto md:p-0 md:flex md:flex-1 md:items-center md:justify-between md:text-left">
+            <div class="md:flex md:items-center">
+              <a href="#" class="block md:ml-8 text-white no-underline font-bold">Flights</a>
+              <a href="#" class="block mt-6 md:mt-0 md:ml-8 text-white no-underline font-bold">Hotels</a>
+              <a href="#" class="block mt-6 md:mt-0 md:ml-8 text-white no-underline font-bold">Cars</a>
+              <a href="#" class="block mt-6 md:mt-0 md:ml-8 text-white no-underline font-bold">Vacations</a>
+              <a href="#" class="block mt-6 md:mt-0 md:ml-8 text-white no-underline font-bold">Deals</a>
+            </div>
+            <div class="md:flex md:items-center">
+              <a href="#" class="block mt-6 md:mt-0 text-white no-underline font-bold">Trips</a>
+              <a href="#" class="block mt-6 md:mt-0 md:inline-block md:ml-8 border border-white-20 rounded px-4 py-2 leading-tight text-white no-underline font-bold hover:bg-white-20 hover:border-transparent">
+                Sign in
+              </a>
+            </div>
           </div>
         </nav>
         <div class="text-center pt-12 pb-16">
