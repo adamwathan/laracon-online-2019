@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>Tailwind Travel</title>
   </head>
-  <body class="bg-grey-2 text-grey-8 font-sans leading-normal antialiased">
-    <header class="bg-cover bg-center" style="background-image: url('/img/hero-bg.jpg')">
+  <body class="text-grey-8 font-sans leading-normal antialiased">
+    <div class="min-h-screen bg-cover bg-center" style="background-image: url('/img/hero-bg.jpg')">
       <div class="px-6 max-w-5xl mx-auto pb-20">
         <nav class="flex items-center py-5 border-b border-white-20">
           <div>
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="md:hidden flex-1 text-right">
-            <button type="button" class="inline-block ml-8 border border-white-20 rounded px-4 py-2 leading-tight text-white no-underline font-bold">
+            <button type="button" class="inline-block border border-white-20 rounded px-4 py-2 leading-tight text-white no-underline font-bold">
               Menu
             </button>
           </div>
@@ -88,42 +88,6 @@
               <button class="block w-full sm:inline-block sm:w-auto bg-yellow-4 hover:bg-yellow-5 font-bold text-yellow-9 rounded px-4 py-3 focus:outline-none focus:shadow-outline">Search Flights</button>
             </div>
           </div>
-        </div>
-      </div>
-    </header>
-    <div class="mt-48">
-      <div class="px-6 max-w-5xl mx-auto">
-        <div class="sm:flex justify-between items-baseline">
-          <h2 class="text-2xl">Vacation package deals</h2>
-          <a href="#" class="font-bold text-blue-5 no-underline">
-            Explore all package deals &rarr;
-          </a>
-        </div>
-        <div class="-mt-3 sm:-mt-5 flex flex-wrap -mx-3">
-          @foreach (range(1, 3) as $i)
-          <div class="w-full sm:w-1/2 lg:w-1/3 px-3 mt-8">
-            <div class="rounded-lg overflow-hidden shadow-md">
-              <img class="block h-40 w-full object-center object-cover" src="https://images.unsplash.com/photo-1511468226932-8e500d0d9eb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt="">
-              <div class="bg-white px-5 pt-3 pb-5">
-                <div class="flex justify-between items-baseline">
-                  <span class="text-grey-5 font-bold uppercase tracking-wider text-sm">Myrtle Beach</span>
-                  <span class="inline-block px-2 bg-red-0 text-red-8 text-xs font-bold rounded-full">Only 5 left</span>
-                </div>
-                <div class="mt-3">
-                  <a href="#" class="text-grey-8 font-semibold no-underline">4 nights at Hampton Inn Myrtle Beach Broadway at the Beach</a>
-                </div>
-              </div>
-              <div class="bg-grey-1 px-5 pt-3 pb-4">
-                <div class="leading-tight">
-                  <a href="#" class="text-grey-8 text-xl font-semibold no-underline">CA $1295</a>
-                </div>
-                <div class="leading-tight">
-                  <a href="#" class="leading-none text-grey-5 text-sm no-underline">vacationspot.ca</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          @endforeach
         </div>
       </div>
     </div>
