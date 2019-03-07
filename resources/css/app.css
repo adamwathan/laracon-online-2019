@@ -35,6 +35,9 @@
 .form-radio-group > input[type="radio"]:checked + .form-radio-indicator {
   @apply border-10 border-blue-7
 }
+.form-radio-group > input[type="radio"]:focus + .form-radio-indicator {
+  @apply shadow-outline
+}
 .form-radio-label {
   @apply ml-4 select-none
 }

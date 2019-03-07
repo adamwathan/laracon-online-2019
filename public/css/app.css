@@ -607,6 +607,10 @@ h6 {
   border-color: #2e4f73;
 }
 
+.form-radio-group > input[type="radio"]:focus + .form-radio-indicator {
+  box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
+}
+
 .form-radio-label {
   margin-left: 1rem;
   -webkit-user-select: none;
