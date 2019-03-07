@@ -1,6 +1,15 @@
 module.exports = {
   theme: {
+    extend: {
+      spacing: {
+        7: '1.75rem',
+      },
+      borderWidth: {
+        10: '10px'
+      }
+    },
     colors: {
+      transparent: 'transparent',
       white: {
         default: '#fff',
         20: 'rgba(255,255,255,.2)',

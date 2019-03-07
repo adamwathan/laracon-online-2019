@@ -3,10 +3,40 @@
 @tailwind components;
 
 .form-input {
-  @apply block w-full bg-grey-1 border border-grey-2 rounded px-5 py-3 leading-tight text-grey-8;
+  @apply block w-full bg-grey-1 border border-grey-2 rounded px-5 py-3 leading-tight text-grey-8
 }
 .form-input:focus {
   @apply outline-none bg-white
+}
+
+.form-input-group {
+  @apply relative block
+}
+.form-input-icon {
+  @apply absolute pin-y pin-l pl-3 flex items-center
+}
+.form-input-icon > svg {
+  @apply h-6 w-6 fill-current text-grey-3
+}
+.form-input-group > .form-input-icon + .form-input {
+  @apply pl-10
+}
+
+
+.form-radio-group {
+  @apply relative flex items-center
+}
+.form-radio-group > input[type="radio"] {
+  @apply absolute opacity-0 pointer-events-none
+}
+.form-radio-indicator {
+  @apply h-7 w-7 bg-grey-1 border border-grey-2 rounded-full
+}
+.form-radio-group > input[type="radio"]:checked + .form-radio-indicator {
+  @apply border-10 border-blue-7
+}
+.form-radio-label {
+  @apply ml-4 select-none
 }
 
 @tailwind utilities;
