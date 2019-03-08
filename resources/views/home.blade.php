@@ -42,8 +42,8 @@
         </nav>
 
         <div class="text-center pt-12 pb-16">
-          <h1 class="leading-tight text-5xl text-white">Where will you be flying today?</h1>
-          <p class="text-3xl text-blue-accent">Travel the world at prices you wouldn&rsquo;t believe.</p>
+          <h1 class="leading-none text-5xl text-white">Where will you be flying today?</h1>
+          <p class="mt-2 leading-tight text-3xl text-blue-accent">Travel the world at prices you wouldn&rsquo;t believe.</p>
         </div>
 
         <form action="#" method="POST" class="max-w-3xl mx-auto lg:max-w-full rounded-lg overflow-hidden">
@@ -106,13 +106,15 @@
           </div>
           <div class="bg-grey-1 px-8 py-3 flex items-center justify-between">
             <div class="flex">
-              <label>
+              <label class="form-checkbox-group">
                 <input type="checkbox" name="add_hotel" value="true">
-                <span class="ml-2">Add a hotel</span>
+                <span class="form-checkbox-indicator" aria-hidden></span>
+                <span class="form-checkbox-label">Add a hotel</span>
               </label>
-              <label class="ml-8">
+              <label class="ml-8 form-checkbox-group">
                 <input type="checkbox" name="add_car" value="true">
-                <span class="ml-2">Add a car</span>
+                <span class="form-checkbox-indicator" aria-hidden></span>
+                <span class="form-checkbox-label">Add a car</span>
               </label>
             </div>
             <div>
